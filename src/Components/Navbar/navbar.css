@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbarcontainer{
+    height: 50px;
+    width:100%;
+    background-color:rgb(227, 67, 8);
+    display:flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+}
+.navbarleft{
+    flex:3;
+    /* background-color:red ; */
+}
+.navbarcenter{
+    flex:5;
+    background-color:white;
+    border-radius: 30px;
+}
+.navbarright{
+   flex:4;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color:white;
+}
+.navbarimg{
+   height:32px;
+   width: 32px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.logo{
+   font-size: 24px;
+   margin-left: 20px;
+   font-weight: bold;
+   color:white;
+   cursor: pointer;
+}
+
+.searchinput{
+    width: 80%;
+    height: 25px;
+    border: none;
+    outline: none;
+   align-items: center;
+   padding-left: 5px;
+   margin-bottom: 5px;
+    
+    
+  
+}
+.searchicon{
+    margin-left:10px;
+    font-size: 20px !important;
+    margin-top: 8px;
+}
+.navbar-link{
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-icons{
+    display: flex;
+}
+.navbariconitem{
+    margin-right:15px ;
+    cursor: pointer;
+    position: relative;
+} 
+.navbariconbadge{
+    width:15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color:white;
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}    
+
+
+/* 
+.navbarimg{
+    width: 10px;
+    height:10%;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+
+} 
+     */
+
+
+    
+    
+
